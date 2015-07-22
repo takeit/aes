@@ -68,6 +68,8 @@ module.exports = function(config) {
       project: 'JS-Scoopwriter',
       name: 'Scoopwriter tests',
       timeout: 600,
+      // fix BrowserStack Rate Limit errors
+      pollingTimeout: 10000
     },
 
     sauceLabs: {
